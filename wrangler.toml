@@ -19,4 +19,4 @@ LICENSE_PATH = "/api/license/id"
 LICENSE_L0_URL = "https://index.l0.mytiki.com/api/latest/license"
 
 TITLE_PATH = "/api/title/id"
-TITLE_L0_URL = "https://index.l0.mytiki.com/api/latest/license"
+TITLE_L0_URL = "https://index.l0.mytiki.com/api/latest/title"
