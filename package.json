@@ -1,7 +1,7 @@
 {
-  "name": "l0-storage-upload",
+  "name": "l0-api",
   "version": "1.0.0",
-  "description": "Cloudflare worker for uploading blocks to TIKI's L0 Storage Service",
+  "description": "Cloudflare worker for re-routing API requests to L0 Services",
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiki-bar/l0-storage-upload"
+    "url": "https://github.com/tiki/l0-api"
   },
   "keywords": [
     "TIKI",
@@ -32,9 +32,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tiki-bar/l0-storage-upload/issues"
+    "url": "https://github.com/tiki/l0-api/issues"
   },
-  "homepage": "https://github.com/tiki-bar/l0-storage-upload#readme",
+  "homepage": "https://github.com/tiki/l0-api#readme",
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
