@@ -1,6 +1,6 @@
 {
   "name": "l0-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cloudflare worker for re-routing API requests to L0 Services",
   "main": "lib/index.js",
   "type": "module",
