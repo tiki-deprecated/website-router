@@ -1,0 +1,22 @@
+name = "l0-api"
+main = "dist/index.js"
+account_id = "5c5263e05bb1e54242b1afb12a5c9259"
+
+routes = [
+    { pattern = "mytiki.com/api/*", zone_id = "7be31970110fa56b1f8e1fe915a8b938" }
+]
+
+compatibility_date = "2022-09-12"
+
+[vars]
+AUTHORIZE_PATH = "/api/authorize"
+AUTHORIZE_L0_URL = "https://auth.l0.mytiki.com/api/latest/oauth/token"
+
+LIST_LICENSE_PATH = "/api/license/list"
+LIST_LICENSE_L0_URL = "https://index.l0.mytiki.com/api/latest/license"
+
+LICENSE_PATH = "/api/license/id"
+LICENSE_L0_URL = "https://index.l0.mytiki.com/api/latest/license"
+
+TITLE_PATH = "/api/title/id"
+TITLE_L0_URL = "https://index.l0.mytiki.com/api/latest/license"
