@@ -1,6 +1,6 @@
 {
   "name": "l0-storage-upload",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Cloudflare worker for uploading blocks to TIKI's L0 Storage Service",
   "main": "lib/index.js",
   "type": "module",
@@ -62,6 +62,5 @@
     "dist/**/*"
   ],
   "types": "dist/index.d.ts",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
